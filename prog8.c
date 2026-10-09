@@ -1,9 +1,11 @@
 #include<stdio.h>
-int main() { int n;
-printf("Enter: ");
-scanf("%d",&n);
-for(int i=0;i<n;i++){
-    for(int j=0;j<n-i;j++){
-       printf("* "); }
-   printf("\n"); } 
-   return 0; }
+int main() {
+int a,b;
+printf("Enter the 1st Number: ");
+scanf("%d",&a);
+printf("Enter the 2nd Number: ");
+scanf("%d",&b);
+printf("\n Sum= %d",a+b);
+printf("\n Difference= %d",a-b);
+printf("\n Multiplication= %d",a*b); return 0; }
+

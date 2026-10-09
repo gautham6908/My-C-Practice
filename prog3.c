@@ -1,13 +1,7 @@
 #include<stdio.h>
-int main() 
-{ 
-int a,b;
-scanf("%d",&a);
-if(a>b) { 
-          printf("A is Greater"); 
-        } 
-         else { 
-                printf("B is not Greater"); 
-              } 
-         return 0; 
-  } 
+int main () {
+int a,b,c;
+scanf("%d %d %d",&a,&b,&c);
+printf("AVERAGE:%d",a+b+c/3);
+printf("TOTAL:%d",a+b+c);
+return 0; }

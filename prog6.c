@@ -1,3 +1,2 @@
 #include<stdio.h>
-int main(){ int n; scanf("%d",&n);
-for(int i=0;i<n;i++) { printf("Hello C Prg\n"); } return 0; }
+int main() { printf("%d",11!=18); return 0; }
